@@ -292,3 +292,116 @@
   font-size: 14px;
   margin: 0;
 }
+
+.membership {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  flex-basis: auto;
+  /* Adicione estilos */
+}
+
+.step {
+  max-width: 220px;
+  
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #f2f2f2;
+  
+}
+
+.footer__columns {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 60px 80px;
+  margin: auto;
+  gap: 80px;
+  
+}
+
+.footer__column_content_hours {
+}
+
+.footer__column_content_social {
+}
+
+.footer__logo {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+  width: 58px;
+  height: 80px;
+  
+}
+
+.footer__column-heading {
+}
+
+.footer__list {
+  /* O código abaixo remove os estilos do navegador padrão para listas */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+}
+
+.footer__copyright {
+  position: absolute;
+  top: 160px;
+  left: 80px;
+  margin: 0;
+  padding: 0;
+}
