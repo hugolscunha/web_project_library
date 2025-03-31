@@ -370,11 +370,7 @@
 }
 
 .footer__logo {
-  position: absolute;
-  top: 60px;
-  left: 80px;
-  width: 58px;
-  height: 80px;
+ 
   
 }
 
@@ -409,5 +405,5 @@
 }
 
 .footer__copyright {
-  
+  margin-top: 100px;
 }
