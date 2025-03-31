@@ -350,7 +350,7 @@
   background-color: #1f1f1f;
   color: #ffffff;
   padding: 60px 80px;
-  margin: auto;
+  margin: 0;
 }
 
 .footer__columns {
@@ -359,19 +359,20 @@
   justify-content: center;
   flex-wrap: wrap;
   
-  gap: 80px;
   
 }
 
 .footer__column_content_hours {
+  margin-left: auto;
 }
 
 .footer__column_content_social {
+  margin-left: 80px;
 }
 
 .footer__logo {
- 
-  
+ width: 58px;
+ height: 80px;
 }
 
 .footer__column-heading {
@@ -406,4 +407,5 @@
 
 .footer__copyright {
   margin-top: 100px;
+  
 }
